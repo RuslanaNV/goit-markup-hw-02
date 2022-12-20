@@ -55,10 +55,7 @@ body {
 .header-link:focus {
     color: var(--pressed-state-color);
 }
-.header-contact link:hover,
-.header-contact link:focus {
-    color: var(--pressed-state-color);
-}
+
 /*------CONTACT------*/ 
 
 .header-contact {
