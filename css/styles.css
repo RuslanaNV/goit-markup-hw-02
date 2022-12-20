@@ -23,6 +23,13 @@ body {
     text-decoration: none;
 }
 /*HEADER*/
+.curent {
+    color: var(--pressed-state-color);
+}
+
+.header-item .curent{
+    color: var(--primaru-brand-color);
+}
 
 /*--------LOGO--------*/
 
