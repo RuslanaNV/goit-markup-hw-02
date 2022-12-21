@@ -54,8 +54,8 @@ header .web {
     /* NAVY BLUE */
     color: var(--headings-text-color);
 }
-.header >.link:hover,
-.header >.link:focus {
+.header-list .link:hover,
+.header-list .link:focus {
     color: var(--pressed-state-color);
 }
 
