@@ -23,7 +23,7 @@ body {
     text-decoration: none;
 }
 /*HEADER*/
-.curent {
+header .link.curent {
     color: var(--pressed-state-color);
 }
 
