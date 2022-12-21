@@ -100,11 +100,11 @@ header .web {
     color: var(--secondery-text-color);
 }
 .hero .btn {
-    background: var(--primaru-brand-color);
+    background-color: var(--primaru-brand-color);
     cursor:pointer
 }
 .hero .btn:hover {
-    background: var(--pressed-state-color);
+    background-color: var(--pressed-state-color);
 }
 
 /*-----SECTION------*/
@@ -142,11 +142,11 @@ header .web {
 }
 
 .team {
-    background: var(--light-mode-color);
+    background-color: var(--light-mode-color);
 }
 
 .team .caption {
-    background: var(--secondery-text-color);
+    background-color: var(--secondery-text-color);
 }
 
 .team .caption {
@@ -181,7 +181,7 @@ header .web {
 /*-------FOOTER-------*/
 
 .footer {
-    background: var(--headings-text-color);
+    background-color: var(--headings-text-color);
 }
 .footer .link {
     font-family: 'Raleway', sans-serif;
@@ -242,7 +242,7 @@ header .web {
     cursor:pointer;
 }
 .caption .btn:hover {
-    background: var(--pressed-state-color);
+    background-color: var(--pressed-state-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
