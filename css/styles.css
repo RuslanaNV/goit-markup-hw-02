@@ -27,13 +27,9 @@ body {
     color: var(--pressed-state-color);
 }
 
-.header-item .curent{
-    color: var(--primaru-brand-color);
-}
-
 /*--------LOGO--------*/
 
-.header-logo {
+.header .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -43,14 +39,14 @@ body {
     text-transform: uppercase;
     color: var(--headings-text-color);
 }
-.header-web {
+.web {
     color: var(--primaru-brand-color);
 }
 
 
 /*------NAV HEADER-------*/
 
-.header-link {
+.header .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
@@ -58,22 +54,22 @@ body {
     /* NAVY BLUE */
     color: var(--headings-text-color);
 }
-.header-link:hover,
-.header-link:focus {
+.header .link:hover,
+.header .link:focus {
     color: var(--pressed-state-color);
 }
 
 /*------CONTACT------*/ 
 
-.header-contact {
+.header .contact {
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
 /* SLATE */
     color: var(--main-text-color);
 }
-.header-contact:hover,
-.header-contact:focus {
+.header .contact:hover,
+.header .contact:focus {
 /* OCEAN */
     color: var(--pressed-state-color);
 }
@@ -83,7 +79,7 @@ body {
 .hero {
     background-color: var(--headings-text-color)
 }
-.hero-title {
+.hero .title {
     font-size: 56px;
     line-height: 1,07;
     text-align: center;
@@ -93,7 +89,7 @@ body {
 
 /*------BTN------*/
 
-.hero-btn {
+.hero .btn {
     font-family: inherit;   
     font-weight: 500;
     font-size: 16px;
@@ -103,17 +99,19 @@ body {
     letter-spacing: 0.04em;
     color: var(--secondery-text-color);
 }
-.hero-btn {
+.hero .btn {
     background: var(--primaru-brand-color);
     cursor:pointer
 }
-.hero-btn:hover {
+.hero .btn:hover {
     background: var(--pressed-state-color);
 }
 
 /*-----SECTION------*/
 
-.sektion-title {
+.section .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
@@ -122,7 +120,7 @@ body {
     color: var(--headings-text-color);
     
 }
-.sektion-text {
+.section .text {
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
@@ -133,7 +131,7 @@ body {
 /*--------FEATURES--------*/
 
 
-.features-title {
+.features .title {
     font-size: 36px;
     line-height: 1,11;
     text-align: center;
@@ -147,11 +145,11 @@ body {
     background: var(--light-mode-color);
 }
 
-.team-caption {
+.team .caption {
     background: var(--secondery-text-color);
 }
 
-.team-caption {
+.team .caption {
     font-size: 36px;
     line-height: 1,11;
     text-align: center;
@@ -160,7 +158,7 @@ body {
     color: var(--headings-text-color);
 }
 
-.team-title {
+.team .title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
@@ -170,7 +168,7 @@ body {
     color: var(--headings-text-color);
 }
 
-.team-after-title {
+.team .after-title {
     font-size: 16px;
     line-height: 1,5;
     text-align: center;
@@ -184,7 +182,7 @@ body {
 .footer {
     background: var(--headings-text-color);
 }
-.footer-link {
+.footer .link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -197,10 +195,10 @@ body {
     color: var(--light-mode-color);
 }
 
-.footer-link-logo {
+.footer .logo {
     color:var(--primaru-brand-color);
 }   
-.footer-text {
+.footer .text {
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
@@ -227,7 +225,7 @@ body {
 
 
 /*--------BTN-------*/
-.caption-btn {
+.caption .btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -239,10 +237,10 @@ body {
     /* IRIS */
     color: var(--primaru-brand-color);
 }
-.caption-btn {  
+.caption .btn {  
     cursor:pointer;
 }
-.caption-btn:hover {
+.caption .btn:hover {
     background: var(--pressed-state-color);
     font-family: inherit;
     font-weight: 500;
@@ -255,7 +253,7 @@ body {
     color: var(--secondery-text-color);
 }
 /*----------CONTENT---------*/
-.content-title {
+.content .title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
@@ -263,7 +261,7 @@ body {
     /* NAVY BLUE */
     color: var(--headings-text-color);
 }
-.content-text {
+.content .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
