@@ -39,7 +39,7 @@ header .link.curent {
     text-transform: uppercase;
     color: var(--headings-text-color);
 }
-.web {
+header .web {
     color: var(--primaru-brand-color);
 }
 
@@ -54,8 +54,8 @@ header .link.curent {
     /* NAVY BLUE */
     color: var(--headings-text-color);
 }
-.header .link:hover,
-.header .link:focus {
+.header >.link:hover,
+.header >.link:focus {
     color: var(--pressed-state-color);
 }
 
