@@ -10,26 +10,26 @@
 
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
 }
 
 
-.list{
+.list {
     list-style: none;
 }
-.link{
+.link {
     text-decoration: none;
 }
 /*HEADER*/
-header .link.curent {
+.list-nav .link.current {
     color: var(--pressed-state-color);
 }
 
 /*--------LOGO--------*/
 
-.header .logo {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -37,39 +37,43 @@ header .link.curent {
     display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--headings-text-color);
-}
-header .web {
     color: var(--primaru-brand-color);
+    text-decoration: none;
+}
+.studio-nav {
+    color: var(--headings-text-color);
+} 
+.studio-footer{
+    color: var(--light-mode-color)
 }
 
 
 /*------NAV HEADER-------*/
 
-.header .link {
+.navigation .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
-    letter-spacing: 0.02em;
+    text-decoration: none;
+    
     /* NAVY BLUE */
     color: var(--headings-text-color);
 }
-.header-list .link:hover,
-.header-list .link:focus {
+.navigation .link:hover,
+.navigation .link:focus {
     color: var(--pressed-state-color);
 }
 
 /*------CONTACT------*/ 
 
-.header .contact {
+.contact {
     font-size: 16px;
     line-height: 1,5;
-    letter-spacing: 0.02em;
 /* SLATE */
     color: var(--main-text-color);
 }
-.header .contact:hover,
-.header .contact:focus {
+.contact:hover,
+.contact:focus {
 /* OCEAN */
     color: var(--pressed-state-color);
 }
@@ -83,28 +87,33 @@ header .web {
     font-size: 56px;
     line-height: 1,07;
     text-align: center;
-    letter-spacing: 0.02em;
     color: var(--secondery-text-color);
 }
 
 /*------BTN------*/
 
-.hero .btn {
-    font-family: inherit;   
+.btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1,5;
     display: flex;
     align-items: center;
+    text-align: center;
     letter-spacing: 0.04em;
-    color: var(--secondery-text-color);
-}
-.hero .btn {
-    background-color: var(--primaru-brand-color);
+
     cursor:pointer
 }
-.hero .btn:hover {
+
+.hero .btn {
+    background-color: var(--primaru-brand-color);
+    color: var(--secondery-text-color);
+}
+
+.hero .btn:hover, 
+.hero .btn:focus,{   
     background-color: var(--pressed-state-color);
+    color: var(--secondery-text-color);
 }
 
 /*-----SECTION------*/
@@ -114,15 +123,15 @@ header .web {
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
-    letter-spacing: 0.02em;
     /* NAVY BLUE */
     color: var(--headings-text-color);
     
 }
-.section .text {
+.text {
     font-size: 16px;
     line-height: 1,5;
-    letter-spacing: 0.02em;
+}    
+.section .text {    
      /* SLATE */
     color: var(--main-text-color);
 }
@@ -131,11 +140,10 @@ header .web {
 
 
 .features .title {
-    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1,11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--headings-text-color);
 
@@ -153,18 +161,15 @@ header .web {
     font-size: 36px;
     line-height: 1,11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--headings-text-color);
 }
 
 .team .title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
     text-align: center;
-    letter-spacing: 0.02em;
     /* NAVY BLUE */
     color: var(--headings-text-color);
 }
@@ -173,7 +178,6 @@ header .web {
     font-size: 16px;
     line-height: 1,5;
     text-align: center;
-    letter-spacing: 0.02em;
     /* SLATE */
     color: var(--main-text-color);
 }
@@ -183,26 +187,8 @@ header .web {
 .footer {
     background-color: var(--headings-text-color);
 }
-.footer .link {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1,17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    /* CLOUD */
-    color: var(--light-mode-color);
-}
-
-.footer .logo {
-    color:var(--primaru-brand-color);
-}   
+ 
 .footer .text {
-    font-size: 16px;
-    line-height: 1,5;
-    letter-spacing: 0.02em;
     /* CORNFLOWER */
     color: var(--accent-color);
 }
@@ -227,30 +213,14 @@ header .web {
 
 /*--------BTN-------*/
 .caption .btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
     /* IRIS */
     color: var(--primaru-brand-color);
+    background-color: var(--light-mode-color)
 }
-.caption .btn {  
-    cursor:pointer;
-}
-.caption .btn:hover {
+.caption .btn:hover,
+.caption .btn:focus,
+.caption .btn:active {
     background-color: var(--pressed-state-color);
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
     color: var(--secondery-text-color);
 }
 /*----------CONTENT---------*/
@@ -258,14 +228,10 @@ header .web {
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
-    letter-spacing: 0.02em;
     /* NAVY BLUE */
     color: var(--headings-text-color);
 }
 .content .text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     /* SLATE */
     color: var(--main-text-color);
 }
