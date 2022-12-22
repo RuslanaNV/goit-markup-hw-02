@@ -111,7 +111,7 @@ body {
 }
 
 .hero .btn:hover, 
-.hero .btn:focus,{   
+.hero .btn:focus {   
     background-color: var(--pressed-state-color);
     color: var(--secondery-text-color);
 }
